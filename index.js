@@ -8,7 +8,7 @@ const app = express();
 // eg. localhost:5000/greeting would be app.get('/greeting')
 app.get("/", (req, res) => {
   // immediately send some JSON back to whoever made the request
-  res.send({ hi: "there" });
+  res.send({ bye: "buddy" });
 });
 
 // tells node to listen for traffic on port xxxx
