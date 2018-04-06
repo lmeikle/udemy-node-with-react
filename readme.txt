@@ -2,6 +2,7 @@ My Notes:
 
 To run it:
   node index.js
+  (or to run nodemon: npm run dev)
   http://localhost:5000
 
 For any Heroku app:
@@ -29,3 +30,9 @@ For any Heroku app:
 
   then either hit the url or run: heroku open
   if there are any issues can try: heroku logs
+
+
+  For any further changes:
+  git add .
+  git commit -m "blah"
+  git push heroku master
