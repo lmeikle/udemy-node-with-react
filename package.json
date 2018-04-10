@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "My Notes:",
   "main": "index.js",
   "engines": {
     "node": "8.1.1",
@@ -18,6 +18,9 @@
     "nodemon": "^1.17.3",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
-    "mongoose": "^5.0.13"
-  }
+    "mongoose": "^5.0.13",
+    "node-fetch": "^2.1.2",
+    "cookie-session": "^2.0.0"
+  },
+  "devDependencies": {}
 }

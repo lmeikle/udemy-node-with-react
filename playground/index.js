@@ -1,5 +1,5 @@
 const express = require("express");
-const promises = require("./promises");
+const promises = require("./generators");
 
 const app = express();
 
