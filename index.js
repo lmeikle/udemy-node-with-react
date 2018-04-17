@@ -15,6 +15,9 @@ mongoose.set("debug", true);
 
 const app = express();
 
+// use lets us set some middleware - take the request and do something to it (pre-processing of the request)
+// these are configured to happen on every single request/route, but can make them only happen on certain routes if we wanted
+// request -> app -> middleware -> get/put etc.. -> response
 app.use(cookieSession({
   maxAge: 30 * 24 * 60 * 60 * 1000,
   keys: [keys.cookieKey]
